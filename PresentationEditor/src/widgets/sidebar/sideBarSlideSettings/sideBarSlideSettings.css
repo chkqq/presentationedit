@@ -1,0 +1,36 @@
+.slide-settings-main {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px;
+  gap: 10px;
+  color: #616161;
+}
+
+.slide-settings-main__photo-button {
+  display: flex;
+  gap: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #616161;
+  background-color: #f5f5f5;
+  border: 2px solid #616161;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slide-settings-main__photo-icon {
+  margin-top: 15px;
+}
+
+.slide-settings-main__slide-background-color {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slide-settings-main__slide-background-color-circle {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 50%;
+  border: 2px solid #bdbdbd;
+  margin-top: 7.5px;
+}

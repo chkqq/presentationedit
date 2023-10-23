@@ -1,0 +1,46 @@
+.side-bar-main {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 15vw;
+  padding: 10px;
+  background-color: #eeeeee;
+  gap: 15px;
+}
+
+.side-bar-main__tabs {
+  display: flex;
+  gap: 5px;
+}
+
+.side-bar-main__content {
+  background-color: #ffffff;
+  padding: 0px 5px;
+  height: 85vh;
+}
+
+.side-bar-main__button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ff8a65;
+  padding: 5px 10px;
+  transition: color 0.2s;
+}
+
+
+.selected-tab {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: #ff8a65;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 5px 10px;
+  transition: color 0.2s;
+}

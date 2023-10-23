@@ -1,0 +1,41 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  width: 100%;
+  font-size: 18px;
+  color: #616161;
+}
+
+.header-main__box-menu {
+  display: flex;
+  padding-left: 10px;
+}
+
+.header-main__box-name {
+  display: flex;
+  width: 100vh;
+}
+
+.header-main__box-name-input {
+  font-family: 'Roboto', sans-serif;
+  color: #616161;
+  font-size: 18px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.header-main__button {
+  background: none;
+  border: none;
+  padding: 10px 10px;
+  color: #616161;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header-main__button:active {
+  background-color: #ffffff;
+  border-radius: 5%;
+}

@@ -1,0 +1,47 @@
+.selected-text-settings-main {
+  height: 6%;
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  gap: 10px;
+  color: #616161;
+  justify-content: space-between;
+}
+
+.selected-text-settings-main__text-parameters {
+  display: flex;
+  gap: 10px;
+}
+
+.selected-text-settings-main__slide-background-color {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.selected-text-settings-main__slide-background-color-circle {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid #bdbdbd;
+  margin-top: 12px;
+}
+
+.selected-text-settings-main__font-choose {
+  display: flex;
+}
+
+.selected-text-settings-main__button {
+  background: none;
+  border: none;
+  padding: 10px 10px;
+  color: #616161;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selected-text-settings-main__button:active {
+  background-color: #757575;
+  border-radius: 5%;
+}
