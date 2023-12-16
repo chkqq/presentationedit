@@ -17,7 +17,7 @@ export const Header = (): JSX.Element => {
   return (
     <div className='header-main'>
       <div className='header-main__box-menu'>
-        <p>Редактор презентаций</p>
+        <p>Редактор  презентаций</p>
       </div>
       <div className='header-main__box-name'>
         {isEditing ? (
